@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="">
+        <table>
+            <tr>
+                <td>
+                    <label for="first-name">Adi</label>
+                </td>
+                <td>
+                    <input type="text" name="first-name" id="first-name" required minlength="2" maxlength="30" placeholder="My name">
+                </td>
+                <td>
+                    <label for="">Hobiler</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="futbol" id="futbol"><label for="futbol">Futbol</label>
+                    
+                    
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    <label for="last-name">Soyadi</label>
+                </td>
+                <td>
+                    <input type="text" name="last-name" id="last-name" required minlength="2" maxlength="30" placeholder="My lastname">
+                </td>
+                <td>
+                </td>
+                <td>
+                    <input type="checkbox" name="voleybol" id="voleybol"><label for="voleybol">Voleybol</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Cinsiyet</label>
+                </td>
+                <td>
+                    <input type="radio" name="cinsiyet" id="cinsiyetE" ><label for="cinsiyetE">Bay</label>
+                    <input type="radio" name="cinsiyet" id="cinsiyetK" required><label for="cinsiyetE">Bayan</label>
+                </td>
+                <td></td>
+                <td>
+                    <input type="checkbox" name="basketbol" id="basketbol"><label for="basketbol">Basketbol</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="ilce">Ilce</label>
+                </td>
+                <td>
+                    <select name="ilce" id="ilce" required>
+                        <option value="" disabled selected hidden>Seciniz</option>
+                        <option value="01">Kadikoy</option>
+                        <option value="02">Fatih</option>
+                        <option value="03">Eyyup</option>
+                        <option value="04">Sisli</option>
+                        <option value="05">Besiktas</option>
+                    </select>
+                </td>
+                <td><label for="profilpic">Profil Fotografi</label>
+                </td>
+                <td>
+                    <input type="file" name="profilpic" id="profilpic" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="eposta">Eposta</label>
+                </td>
+                <td>
+                    <input type="email" name="eposta" id="eposta" required maxlength="30"  placeholder="me@me.com">
+                </td>
+                <td><label for="dogum">Dogum Tarihi</label>
+                </td>
+                <td>
+                    <input type="date" name="dogum" id="dogum" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="site">Kisisel Site</label>
+                </td>
+                <td>
+                    <input type="url" name="site" id="site" required minlength="10" placeholder="https://www.me.com">
+                </td>
+                <td >
+                    <label for="address">Adres</label>
+                </td>
+                <td rowspan="2">
+                    <textarea name="address" id="address" cols="20" rows="5" required minlength="10" maxlength="255" placeholder="Please enter your address"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="phone">Telefon</label>
+                </td>
+                <td>
+                    <input type="tel" name="phone" id="phone" required placeholder="555 222 44 33" minlength="13" maxlength="13" pattern="(5)[0-9][0-9][\s]([0-9]){3}[\s]([0-9]){2}[\s]([0-9]){2}">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>
+                    <input type="submit" value="Kayit ol">
+                </td>
+            </tr>
+
+        </table>
+    </form>
+</body>
+</html>
