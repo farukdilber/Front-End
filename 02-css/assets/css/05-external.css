@@ -1,0 +1,20 @@
+*{
+    color:brown;
+}
+
+/* h1 mavi yapildi */
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  color: blue;
+}
+/**/
+.aaa{
+    font-size: 1.3em;
+    background-color: aqua;
+    color: black
+}
+
+.bbb{
+    font-weight: bold;
+}
