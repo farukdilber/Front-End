@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Form</h1>
+    <h3>About us</h3>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, itaque eum! Quod amet culpa distinctio consectetur laudantium minus quia praesentium asperiores, pariatur recusandae rem ex voluptatum velit, inventore iste hic!
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque aperiam labore sed delectus? Quo error sed, nihil, natus obcaecati dolor a, quam tenetur quis dolorum provident cumque exercitationem voluptate et?
+    </p>
+    <form action="">
+        <p>
+            <label for="mail">Mail:</label>
+        <input type="email" name="mail" id="mail" placeholder="Your mail address" required>
+        </p>
+        <p>
+            <label for="sifre">Sifre:</label>
+            <input type="password" name="sifre" id="sifre" required minlength="8">
+        </p>
+        <p>
+            <input type="radio" name="gender" id="male"><label for="male">Erkek<label> <br />
+            <input type="radio" name="gender" id="female" required><label for="female">Kadin</label>
+        </p>
+        <p>
+            <label for="files">Dosya:</label>
+            <input type="file" name="files" id="files">
+        </p>
+        <p>
+            <label for="adres">Adres:</label>
+            <textarea name="adres" id="adres" cols="30" rows="10" required></textarea>
+        </p>
+        
+        <p>
+            <label for="sehir">Sehir:</label>
+        <select name="sehir" id="sehir" required>
+            <option value="" disabled selected >Seciniz</option> 
+            <option value="1">Adana</option>
+            <option value="2">Adıyaman</option>
+            <option value="3">Ankara</option>
+            <option value="4">Aydın</option>
+        </select>
+        </p>
+        <p>
+            <label for="renk">Favori renginiz:</label>
+            <input type="color" name="renk" id="renk">
+        </p>
+        <p>
+            <label for="">Çay mı Kahve mi?</label> <br>
+            <input type="checkbox" name="cay" id="cay"><label for="cay">Çay</label> <br>
+            <input type="checkbox" name="kahve" id="kahve"><label for="kahve">Kahve</label>
+        </p>
+
+        <input type="submit" value="Gonder">
+    </form>
+</body>
+</html>
