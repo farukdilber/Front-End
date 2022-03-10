@@ -1,34 +1,35 @@
-body {
-  background-color: gray;
+nav.menu {
   font-family: "Roboto", sans-serif;
+  text-align: left;
+  background-color: rgb(148, 147, 147);
+  width: 200px;
 }
-ul {
-  padding: 15px;
+
+ul.menu {
   list-style: "🔹";
-  font-weight: 400;
-}
-li {
-  padding: 5px;
+  padding: 0;
+  list-style-position: inside;
 }
 
-a:link {
-  color: black;
+.active {
+  background-color: rgb(95, 94, 94);
+}
+
+li.item {
+  padding: 1rem;
+}
+
+a.link {
   text-decoration: none;
-}
-a:visited {
+  font-weight: 400;
   color: black;
 }
-a:hover {
-  color: rgb(182, 51, 176);
-  background-color: rgb(146, 209, 141);
-}
-ul > li:first-child {
-  background-color: rgb(83, 81, 81);
-}
-a.list1 {
-  color: white;
+
+a.link:visited {
+  color: black;
 }
 
-a.list1:hover {
-    color: rgb(182, 51, 176);
-  }
+a.link:hover {
+  background-color:coral;
+  color: rgb(240, 235, 235);
+}
