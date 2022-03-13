@@ -1,37 +1,37 @@
-nav.menu {
-    font-family: "Roboto", sans-serif;
-    background-color: gray;
-    width: 150px;
+
+nav.menu{
+    font-family: 'Roboto', sans-serif;
     text-align: left;
+    background-color: rgb(214, 214, 214);
+    width:300px;
 }
 
-nav.menu ul {
-    list-style: "🔹";
+nav.menu ul{
+    list-style-type: '🔹';
     padding: 0;
     list-style-position: inside;
+
 }
 
-nav.menu ul li:first-child {
-    background-color: rgb(95, 94, 94);
+nav.menu .active{
+    background-color: gray;
 }
 
-nav.menu ul li:first-child a {
-    color: white;
+nav.menu li{
+    padding: 1rem;
 }
 
-nav.menu ul li {
-    padding: 0.3rem;
-}
-nav.menu ul li a {
+nav.menu a{
     text-decoration: none;
-    font-size: 400;
-    color: black;
+    font-weight: 400;
+    color:black;
 }
 
-nav ul li a:visited {
-    color: black;
+nav.menu a:visited{
+    color:black;
 }
-nav.menu ul li a:hover {
-    background-color: rgb(231, 203, 150);
-    color: rgb(44, 13, 180);
+
+nav.menu a:hover{
+    background-color: coral;
+    color:antiquewhite;
 }
