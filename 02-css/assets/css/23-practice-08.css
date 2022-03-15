@@ -11,9 +11,11 @@ nav.menu ul {
 
 nav.menu li {
     display: inline-block;
+    padding: 1rem;
 }
 
 nav.menu li::after {
+    padding: 1rem;
     content: "|";
  }
 
@@ -23,8 +25,20 @@ nav.menu li::after {
 
  nav.menu ul::before {
      content: "<";
+     padding: 1rem;
  }
 
  nav.menu ul::after {
     content: ">";
+}
+
+nav.menu ul a {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    text-decoration: none;
+}
+nav.menu ul a:hover {
+    background-color: red;
+    color: antiquewhite
 }

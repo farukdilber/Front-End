@@ -28,3 +28,14 @@ nav.menu a:hover{
     background-color: var(--color2);
     color:white;
 }
+
+nav.menu div a{
+    background-color: var(--color1);
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--color2);
+    width:5rem;
+    text-align: center;
+    margin-right:1rem;
+}
