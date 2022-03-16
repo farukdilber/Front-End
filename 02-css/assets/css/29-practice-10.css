@@ -1,28 +1,78 @@
-header{
+header {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 2rem;
+}
+
+
+
+header {
+  background-color: aqua;
+}
+
+section {
+  background-color: rgb(94, 235, 157);
+  display: flex;
+}
+
+section main {
+  background-color: rgb(223, 137, 137);
+  height: 100%;
+  width: 70vw;
+}
+
+aside {
+  background-color: rgb(197, 223, 137);
+  width: 30vw;
+}
+
+footer {
+    background-color: rgb(103, 218, 103);
     display: flex;
     justify-content: space-between;
-    gap:1rem;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 2rem;
 }
 
-header .logo img{
-    width:300px;
+header .logo img {
+  width: 300px;
 }
 
-header .menu ul{
-    display:flex;
+header .menu ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 1rem;
+}
+
+header .menu a {
+  text-decoration: none;
+  background-color: #fbb040;
+  color: black;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+footer .logo img {
+  width: 300px;
+}
+
+section img {
+  width: 300px;
+}
+
+footer ul {
+    padding: 0.5rem 1rem;
     list-style: none;
-    padding: 0;
-    margin:0;
-    gap: 1rem;
 }
 
-header .menu a{
+footer ul li {
+    padding: 0.5rem;
+    text-align: center;
+}
+
+footer ul a {
     text-decoration: none;
-    background-color: #FBB040;
-    color:black;
-    padding:0.5rem 1rem;
-    border-radius: 0.5rem;
 }
